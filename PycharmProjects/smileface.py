@@ -1,0 +1,28 @@
+from turtle import *
+def go(x,y):
+    penup()
+    goto(x,y)
+    pendown()
+def arc(radius):
+    circle(radius,90)
+reset()
+speed(0)
+go(0,-150)
+circle(200)
+go(50,100)
+seth(225)
+arc(10)
+arc(50)
+arc(10)
+arc(50)
+go(-50,100)
+seth(-45)
+arc(-10)
+arc(-50)
+arc(-10)
+arc(-50)
+go(-70,-50)
+arc(100)
+hideturtle()
+
+exitonclick()
